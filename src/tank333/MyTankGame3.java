@@ -55,7 +55,7 @@ class MyPanel extends JPanel implements KeyListener,Runnable
 	{	//我的坦克
 		hero=new Hero(150,150);
 		
-		
+		//做点标记
 		//初始化敌人的坦克
 		for(int i=0; i<enSize; i++)
 		{	// 创建一个敌人坦克

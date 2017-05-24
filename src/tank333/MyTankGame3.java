@@ -17,6 +17,7 @@ public class MyTankGame3 extends JFrame{
 	MyPanel mp=null;
 	public static void main(String[] args) {
 		
+//ceshi
 		MyTankGame3 mtg=new MyTankGame3();
 	}
 	//构造函数
@@ -31,12 +32,13 @@ public class MyTankGame3 extends JFrame{
 		this.addKeyListener(mp);
 		this.setSize(400,300);
 		this.setVisible(true);
+		
 	}
 }
 //我的面板
 class MyPanel extends JPanel implements KeyListener,Runnable
 {
-	//定义一个我的坦克
+	
 	Hero hero=null;
 	//定义敌人的坦克
 	Vector<EnemyTank> ets=new Vector<EnemyTank>();

@@ -14,6 +14,7 @@ import java.awt.event.*;
 import java.util.*;
 public class MyTankGame3 extends JFrame{
 //bei
+//zha
 	MyPanel mp=null;
 	public static void main(String[] args) {
 		
